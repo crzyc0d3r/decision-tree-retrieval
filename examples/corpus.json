@@ -1,0 +1,29 @@
+[
+  {
+    "id": "object-recovery",
+    "title": "Restore a deleted object",
+    "summary": "Deleted object recovery window and irreversible expiration.",
+    "passages": [
+      {"id": "recover-window", "text": "A deleted object can be restored for 30 days. After that recovery window it is permanently erased."},
+      {"id": "recover-access", "text": "A restore operation requires the storage administrator role."}
+    ]
+  },
+  {
+    "id": "account-recovery",
+    "title": "Restore account access",
+    "summary": "Reset an account password and restore access with recovery codes.",
+    "passages": [
+      {"id": "account-code", "text": "Recovery codes restore account access when a security key is lost."},
+      {"id": "account-time", "text": "A password reset link expires after 20 minutes."}
+    ]
+  },
+  {
+    "id": "object-versioning",
+    "title": "Object versions",
+    "summary": "Previous object revisions and version retention configuration.",
+    "passages": [
+      {"id": "version-retention", "text": "When versioning is enabled, earlier object revisions remain until a lifecycle rule removes them."},
+      {"id": "version-billing", "text": "All stored object versions count toward billed storage."}
+    ]
+  }
+]
